@@ -37,6 +37,7 @@ body{
 main{
     position: relative;
     height: 100vh;
+    flex-wrap: wrap;
 }
 html, body{
     width: 100vw;
@@ -45,14 +46,15 @@ html, body{
 }
 #dois{
     display: flex;
-    justify-content: start;
-    align-items: start;
-    gap: 10px;
+    flex-direction: column;
+    align-items: end;
+    position: fixed;
 }
 #dois > a > img{
     width: 60px;
     height: 50px;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 #dois > a > img:hover{
     animation-duration: 5s;
