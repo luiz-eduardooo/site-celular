@@ -1,0 +1,28 @@
+@charset "utf-8"
+*{
+            padding: 0px;
+            margin: 0px;
+        }
+        a{
+            display: block;
+            padding: 20px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        img{
+            width: 100vw;
+            height: 100vh;
+        }
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+        #verde{
+            background-color: darkgreen;
+        }
+        #azul{
+            background-color: rgb(9, 102, 133);
+        }
