@@ -45,14 +45,14 @@ html, body{
 }
 #dois{
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
 }
 #dois > a > img{
     width: 60px;
     height: 50px;
     border-radius: 50%;
-    margin-bottom: 10px;
 }
 #dois > a > img:hover{
     animation-duration: 5s;
